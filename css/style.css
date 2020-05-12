@@ -1,0 +1,350 @@
+
+
+/* import font from font.css*/
+@import url('./fonts.css');
+/*import variables*/
+@import url('./partials/_variabls.css');
+/*import global.css*/
+@import url('./partials/_global.css');
+body{
+	background: #21212d;
+   color:#fff;
+
+}
+
+/* =========== start nav ==========*/
+nav.navbar.navbar-expand-lg.navbar-light {
+   padding: 0.5rem 2.5rem 1rem 0rem;
+}
+.header_area .main_menu .navbar .nav-item a.nav-link{
+	font-family:  cursive;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:var(--title-color) ;
+	padding: 1.7rem;
+}
+.header_area .main_menu .navbar a.navbar-brand{
+    padding: 0rem 4.5rem 0.2rem;
+   font-family: 'Meie Script', cursive;
+   color: #fff;
+    font-size: 2rem;
+
+
+}
+.header_area .main_menu .navbar .nav-item.active a.nav-link{
+	    background: var(--gradient-color);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color:red;
+}
+.header_area .main_menu .navbar .nav-item a.nav-link:hover{
+	background:var(--gradient-color);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* ===========end nav ============= */
+/* =========== start banner =======*/
+.site-main .site-banner{
+
+	/*background: url(../img/banner/home-banner.png) no-repeat 0% 50%;*/
+	 color:#fff!important;
+	    
+	
+}
+.site-main .site-banner .banner-image >img {
+    display: block;
+    position: absolute;
+    top: -9%;
+    left: -15px;
+}
+h3.title-text {
+   padding: 12rem 0 0;
+    font-size: -webkit-xxx-large;
+    font-weight: normal;
+   
+}
+.site-title{
+	 padding: 8rem 8rem 0 0;
+
+}
+/*h3.title-text::after{
+    content: "";
+    background: #000;
+    height: 2px;
+    width: 18vw;
+    display: inline-block;
+    margin-left: 15px;
+    transform: translateY(-10px);
+     color:#fff!important;
+
+}*/
+h1 {
+    font-size: 5rem;
+     color:#fff!important;
+     font-family: 'Galada', cursive;
+}
+
+h4.title-text.text-uppercase {
+    font-size: 1.5rem;
+    color:#fff!important;
+}
+
+
+
+/* =========== end banner ==========*/
+/* =========== start about ==========*/
+section.about {
+    padding: 10rem 4rem;
+}
+ h2{
+    color: #fff;
+    font: normal;
+    font: normal bold 50px/72px var(--roboto);
+}
+.about-img {
+    
+    padding: 8rem 0 0 6rem;
+}
+section.about img.img-fluid.glow {
+    width: 90%;
+}
+/* =========== end about ==========*/
+/* =========== start Brand ==========*/
+.brand_area .first-row .brand{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.brand_area .first-row .brand > .single-brand{
+	width: 180px;
+    /* height: 100%; */
+    margin: .9rem 0;
+    padding: 1.8rem 0;
+    border: 1px solid var(--border-color);
+    height: 100px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+	transform: scale(1.1);
+   
+}
+.brand_area .first-row .brand > .single-brand >img{
+	width:50%;
+}
+
+
+.experience-area {
+	padding-left: 1rem;
+	padding-top: 1rem;
+	
+
+}
+
+
+
+
+
+
+/* =========== end Brand ==========*/
+/* =========== start services ==========*/
+.services_area {
+    margin: 15rem 0;
+}
+.services_area h2.text-uppercase.title-text {
+    font-size: 2.5rem;
+}
+h5.card-title.text-uppercase.font-roboto {
+    padding-top: 1.5rem;
+}
+.services_area > .service_list .services{
+	padding:2rem 0;
+	background:#ffffff10;
+	width:16rem;
+	transition:box-shadow .7s ease;
+	width: 17rem;
+   
+}
+.services_area > .service_list .services:hover{
+	box-shadow: var(--box-shadow);
+}
+
+/* =========== end services ==========*/
+/* =========== start project  ==========*/
+.project_area .button-group{
+	padding:2rem 0;
+}
+
+.project_area .button-group  button.button{
+	background:transparent !important;
+	border:none;
+	font:normal 500 16px/120px var(--roboto);
+	text-transform: uppercase;
+}
+.project_area .button-group  button.button +button.button{
+	padding-left: 0rem;
+}
+.project_area .button-group  button.button:first-child{
+	padding-left:0;
+}
+
+.project_area .project .img a:hover img{
+	filter:brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+
+}
+/* =========== end project  ==========*/
+/* =========== start about me  ==========*/
+.carousel .owl-carousel .client{
+	background: #ffffff10;
+	box-shadow: var(--box-shadow);
+	margin:3rem 0rem;
+}
+.col-lg-4.col-md-12.client-img{
+	padding: 2rem;
+}
+.carousel .owl-carousel .client .about-client{
+	padding: 2rem;
+}
+.carousel .owl-carousel .client h4{
+	font:normal 500 21px/20px var(--roboto);
+
+}
+.carousel .owl-carousel .client p{
+	font-size: 14px;
+}
+.carousel .owl-carousel  .owl-item  {
+	display: flex;
+	justify-content: center;
+	padding: 0rem 1.5rem;
+
+}
+.owl-theme .owl-dots .owl-dot span{
+	background: var(--primary-color);
+	width:12px;
+	height:12px;
+}
+
+/* =========== end about me  ==========*/
+/* =========== start  subscribe me  ==========*/
+.subscribe-us-area .subscribe{
+	background: url(../img/subscribe-bg.png) no-repeat;
+	padding: 10rem 0;
+	margin:3rem auto;
+}
+.subscribe-us-area .subscribe h4{
+	font:normal 700 30px/30px var(--roboto);
+	color:whitesmoke;
+}
+.subscribe-us-area .subscribe p{
+	color:whitesmoke;
+	padding:1rem 4rem ;
+}
+.subscribe-us-area .subscribe form input{
+	width: 153%;
+    padding: 1.5rem 1rem;
+    background: transparent;
+    color: whitesmoke;
+    border:1px solid whitesmoke;
+    font:normal 500 17px/20px var(--roboto);
+
+}
+.subscribe-us-area .subscribe form input::placeholder{
+	color:whitesmoke;
+}
+button.btn.btn-success.float-right {
+    color: #000!important;
+    
+    padding: .799rem 2rem;
+    background: whitesmoke;
+    
+}
+footer{
+	padding: 5rem 0;
+	background: url(../img/footer-bg.png);
+}
+.social a>i{
+	padding:2rem;
+color: var(--primary-color);
+	font-size: 22px;
+}
+
+.copyRight{
+	color: #8b888e;
+	font:normal 500 16px/20px var(--roboto);
+	margin-top: -0.5rem;
+}
+
+/* =========== end subscribe me  ==========*/
+
+.navbar_fixed{
+	position: fixed;
+	width: 100%;
+	top:-1;
+	right: 0;
+	left: 0;
+	z-index: 9999;
+	background: #fff;
+	box-shadow: var(--box-shadow);
+	transition: background 1s ease;
+}
+
+/*=================footer===================*/
+/*.skewed {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #2c3e50;
+  z-index: 0;
+  transform: skewY(14deg);
+  transform-origin: bottom  left;
+}*/
+footer {
+  background: blue;
+   
+    height: 500px;
+    position: relative;
+    margin-top: 10rem;
+    background: url(../img/3.jpg);
+    /* background: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 99%; */
+    /* background-position-x: 128%; */
+        background-position: 50% 85%;
+
+}
+footer:before {
+ content:"";
+ position:absolute;
+ top:-60px;
+ height:60px;
+ left:0;
+ right:0;
+ 
+ position: relative;
+}
+.layer{
+	background-color:rgba(0,0,0,.8);
+	height: 100%;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+
+}
+img{
+	border-radius: 50%;
+}
+i  .fab{
+    
+}
+
+
+
+
+

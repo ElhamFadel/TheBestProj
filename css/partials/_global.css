@@ -1,0 +1,64 @@
+.title-text {
+    font: 50px/72px;
+    font: normal bold 50px/72px var(--roboto);
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.button {
+    padding: 1rem 2.2rem;
+    border: 1px solid transparent;
+    font: normal 500 15px/16px var(--roboto);
+    border-radius: 4px;
+    position: relative;
+}
+.button.primary-button{
+	background:var(--gradient-color);
+	box-shadow: var(--box-shadow);
+	color:whitesmoke;
+	transition: background .6s ease;
+}
+.button.primary-button:hover{
+	color:#000;
+	background: #fff;
+	background-clip: padding-box;
+}
+.button.primary-button::after,.button.secondary-button::after {
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
+    content: "";
+    background: var(--gradient-color);
+    border-radius: 4px;
+}
+.button.secondary-button{
+	background: white;
+	background-clip: padding-box;
+	transition: background .6s ease;
+}
+.button.secondary-button:hover{
+	color:#fff;
+	background: var(--gradient-color);
+	box-shadow: var(--box-shadow);
+
+}
+.par{
+	color:var(--text-color);
+	font:normal 500 16px/25px var(--roboto);
+}
+.font_roboto{
+	font-family: var(--roboto);
+}
+
+
+button:active,
+button:focus,
+button:hover,
+.btn:active,
+.btn-active{
+	outline:0px !important;
+	box-shadow: none;
+}
